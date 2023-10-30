@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <title>Login</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <form class="formLogin animation">
+          <h1>Login</h1>
+
+          <input
+            type="email"
+            name="email"
+            placeholder="E-mail"
+            required
+            class="inputLogin"
+            autocomplete="off"
+          />
+
+          <input
+            type="password"
+            name="password"
+            placeholder="Password"
+            required
+            class="inputLogin"
+            autocomplete="off"
+          />
+
+          <button type="submit" class="buttonSubmit">Login</button>
+          <div class="remember">
+            <a href="./src/pages/register.html">Register here</a>
+            <a href="./src/pages/forgot-password.html">Forgot password?</a>
+          </div>
+        </form>
+
+        <div class="welcome animacao-2">
+          <h1>Welcome to my website</h1>
+          <h2>Access my social networks</h2>
+          <section class="socialNetworks">
+            <a href="#" target="_blank"><img src="./src/assets/instagram.png" alt="logo Instagram"></a>
+            <a href="#" target="_blank"><img src="./src/assets/facebook.png" alt="logo Facebook"></a>
+            <a href="#" target="_blank" ><img src="./src/assets/twitter.png" alt="logo Twitter"></a>
+           <a href="#" target="_blank"><img src="./src/assets/linkedin.png" alt="logo Linkedin"></a>
+          </section>
+        </div>
+        
+      </div>
+    </main>
+  </body>
+</html>
